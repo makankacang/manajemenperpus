@@ -128,14 +128,3 @@ Commit perubahan (git commit -m "Tambah fitur baru")
 Push branch (git push origin fitur-baru)
 
 Buat Pull Request 🚀
-
-📝 Lisensi
-Proyek ini dirilis di bawah lisensi MIT.
-Bebas digunakan untuk pembelajaran dan pengembangan.
-
-<div align="center">
-💡 Dibuat oleh Rey dengan ☕ dan semangat belajar!
-
-"Membaca adalah jendela dunia — Laravel adalah framework-nya." 📖✨
-
-</div> ```
