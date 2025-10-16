@@ -7,8 +7,8 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-**Sistem manajemen perpustakaan modern dan simpel!** 🚀  
-*Dibangun dengan Laravel 11 + Breeze — ringan, cepat, dan mudah digunakan.*
+**Sistem manajemen perpustakaan**  
+*Dibangun dengan Laravel 12 + Breeze — ringan, cepat, dan mudah digunakan.*
 
 </div>
 
@@ -40,15 +40,18 @@
 ---
 
 ## 🛠️ Tech Stack
+**Backend:**
+
+- Reyhan – Developer
+- Inayah - Developer
 
 **Backend:**
-- ⚙️ Laravel 11.x
+- ⚙️ Laravel 12.x
 - 🧱 Laravel Breeze (auth)
 - 🗄️ Eloquent ORM
 
 **Frontend:**
 - 🎨 Blade Template + Bootstrap 5
-- ⚡ Alpine.js (opsional)
 - 📱 Responsive Layout
 
 **Database:**
