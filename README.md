@@ -40,7 +40,7 @@
 ---
 
 ## 🛠️ Tech Stack
-**Backend:**
+**🧑‍💻 Kontributor**
 
 - Reyhan – Developer
 - Inayah - Developer
