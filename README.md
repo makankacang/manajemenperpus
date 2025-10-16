@@ -3,150 +3,136 @@
 <div align="center">
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Breeze](https://img.shields.io/badge/Laravel_Breeze-4A90E2?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-**Sistem manajemen perpustakaan modern yang keren dan fun!** 🚀
-
-*Aplikasi untuk mengelola buku, peminjaman, dan anggota perpustakaan dengan gaya*
+**Sistem manajemen perpustakaan modern dan simpel!** 🚀  
+*Dibangun dengan Laravel 11 + Breeze — ringan, cepat, dan mudah digunakan.*
 
 </div>
 
-## ✨ Fitur Seru yang Tersedia
+---
+
+## ✨ Fitur Utama
 
 ### 📖 Manajemen Buku
-- ✅ Tambah, edit, hapus buku dengan mudah
-- 🖼️ Upload gambar cover buku
-- 🏷️ Kelola kategori dan penulis
-- 🔍 Pencarian buku yang super cepat
+- ✅ Tambah, edit, hapus, dan cari buku
+- 🖼️ Upload cover buku
+- 🏷️ Kelola kategori, penerbit, dan penulis
+- 🔍 Fitur pencarian cepat
 
 ### 👥 Manajemen Anggota  
-- 👑 Role-based system (Admin & User)
-- 📧 Verifikasi email untuk keamanan
-- 👤 Profil anggota yang customizable
+- 👤 Registrasi & login via Laravel Breeze
+- 🧩 Update profil user
+- 💾 Data anggota tersimpan otomatis di database
 
 ### 🔄 Sistem Peminjaman
-- 📅 Pinjam & kembalikan buku secara digital
-- ⏰ Tracking durasi peminjaman
-- 📊 Status peminjaman real-time
-- 🎯 Konfirmasi & reject otomatis
+- 📅 Catat peminjaman & pengembalian buku
+- ⏰ Lacak status pinjaman (aktif, terlambat, selesai)
+- 🔔 Notifikasi sederhana di dashboard
 
-### 📊 Laporan & Analytics
-- 📈 Statistik peminjaman
-- 📋 Laporan lengkap
-- 🧮 Dashboard informatif
-- 📄 Export data mudah
+### 📊 Laporan & Dashboard
+- 📈 Statistik buku & anggota
+- 📋 Laporan transaksi
+- 🧮 Tampilan dashboard informatif
 
-## 🎯 Quick Start
-
-### Prerequisites
-- PHP 8.1+
-- Composer
-- MySQL
-- Node.js (optional)
-
-### 🚀 Installation
-
-```bash
-# Clone repo ini
-git clone https://github.com/yourusername/manajemenperpus.git
-
-# Masuk direktori
-cd manajemenperpus
-
-# Install dependencies
-composer install
-npm install
-
-# Setup environment
-cp .env.example .env
-php artisan key:generate
-
-# Configure database di .env
-DB_DATABASE=manajemenperpus
-DB_USERNAME=root
-DB_PASSWORD=
-
-# Run migrations & seeding
-php artisan migrate --seed
-
-# Start development server
-php artisan serve
-```
-
-🎉 **Boom!** Aplikasi ready di `http://localhost:8000`
-
-### 👤 Default Accounts
-- **Admin**: `admin@perpus.com` / `password`
-- **User**: `user@perpus.com` / `password`
+---
 
 ## 🛠️ Tech Stack
 
 **Backend:**
-- 🎯 Laravel 10.x
+- ⚙️ Laravel 11.x
+- 🧱 Laravel Breeze (auth)
 - 🗄️ Eloquent ORM
-- 🔐 Sanctum Authentication
-- 📧 Email Verification
 
 **Frontend:**
-- 🎨 Bootstrap 5
-- ⚡ Vanilla JavaScript  
-- 📱 Responsive Design
-- 🎭 Sweet Animations
+- 🎨 Blade Template + Bootstrap 5
+- ⚡ Alpine.js (opsional)
+- 📱 Responsive Layout
 
 **Database:**
-- 🐬 MySQL
-- 🔄 Database Migrations
-- 🌱 Seeding Data
+- 🐬 MySQL / MariaDB
+- 🌱 Seeder & Migration support
 
-## 🎨 Screenshots
-
-*(Coming soon - bakal ada screenshot keren di sini!)*
-
-## 🔧 Development
-
-```bash
-# Run tests
-php artisan test
-
-# Generate ide-helper
-php artisan ide-helper:generate
-
-# Clear cache
-php artisan optimize:clear
-
-# Watch assets (mix)
-npm run dev
-```
-
-## 🤝 Contributing
-
-Mau bikin fitur keren? Ayo collab! 
-
-1. Fork project ini
-2. Create feature branch (`git checkout -b amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push branch (`git push origin amazing-feature`)
-5. Open Pull Request
-
-## 📝 License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## 🎊 Fun Facts
-
-- 🚀 Dibangun dengan ❤️ menggunakan Laravel
-- 📚 Bisa handle ribuan buku sekaligus
-- 👥 Support multi-user dengan role berbeda
-- 🔒 Super secure dengan email verification
-- 📱 Responsive di semua device
+**Environment:**
+- 💻 Laragon (development)
+- 🧩 PHP 8.2+
+- 🔑 Composer & NPM
 
 ---
 
+## 🚀 Instalasi Cepat
+
+```bash
+# 1️⃣ Clone repository
+git clone https://github.com/makankacang/manajemenperpus.git
+cd manajemenperpus
+
+# 2️⃣ Install dependencies
+composer install
+npm install && npm run dev
+
+# 3️⃣ Setup environment
+cp .env.example .env
+php artisan key:generate
+
+# 4️⃣ Atur koneksi database di .env
+DB_DATABASE=manajemenperpus
+DB_USERNAME=root
+DB_PASSWORD=
+
+# 5️⃣ Migrasi & seeding (jika perlu)
+php artisan migrate --seed
+
+# 6️⃣ Jalankan server
+php artisan serve
+Akses di: 👉 http://localhost:8000
+
+💾 Database
+Kamu bisa impor file SQL bawaan:
+
+pgsql
+Copy code
+/database/manajemenperpus.sql
+Atau biarkan Laravel membuat otomatis lewat migrate --seed.
+
+👤 Akun Default (Opsional)
+Role	Email	Password
+Admin	admin@perpus.com	password
+User	user@perpus.com	password
+
+🧑‍💻 Perintah Penting
+bash
+Copy code
+# Jalankan test
+php artisan test
+
+# Clear cache dan config
+php artisan optimize:clear
+
+# Watch asset development
+npm run dev
+🤝 Kontribusi
+Pengen bantu nambah fitur? Yuk bareng!
+
+Fork repository ini
+
+Buat branch fitur (git checkout -b fitur-baru)
+
+Commit perubahan (git commit -m "Tambah fitur baru")
+
+Push branch (git push origin fitur-baru)
+
+Buat Pull Request 🚀
+
+📝 Lisensi
+Proyek ini dirilis di bawah lisensi MIT.
+Bebas digunakan untuk pembelajaran dan pengembangan.
+
 <div align="center">
+💡 Dibuat oleh Rey dengan ☕ dan semangat belajar!
 
-**Dibuat dengan ☕ dan 🎵 oleh Tim Keren**
+"Membaca adalah jendela dunia — Laravel adalah framework-nya." 📖✨
 
-*"Membaca adalah jendela dunia, kita yang buat sistemnya!"* 📖✨
-
-</div>
+</div> ```
